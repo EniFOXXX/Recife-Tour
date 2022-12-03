@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding: 0 auto;
     margin: 0 auto;
 }
 
@@ -7,16 +7,18 @@ body{
     font-family: 'Nerko One', cursive;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    
 }
 
 header{
     
-    background-image: url("img/boat-2363352_1920.jpg");
+    background-image: url("img/boat-2363352_1920.jpg"); 
     
     height: 90px;
     padding-bottom: 0px;
     padding-top: 30px;
     margin-top: 0px;
+    color: black;
 
     
 }
@@ -29,7 +31,7 @@ header{
     margin-left: 40px
     
 }
-.menu li{
+.menu, li{
     color: white;
     list-style:none;
     float: right;
@@ -47,27 +49,79 @@ section{
     height:auto;
     width: auto;
     background-position:center;
-    background-image: url("img/boat-2363352_1920.jpg");
+    background-color: peru;
+    padding: 0;
+    margin: 0;
+    color: rgb(27, 34, 34);
+    
+    
 }
-img{
-    height: 800px;
-    width: 1333px;
-    opacity: 0.9;
+
+h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+h2{
+    font-style:oblique;
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+}
+.text1, .text2, .text3{
+    width: 800px;
+    justify-items: right;
+    padding-bottom: 50px;
 }
 footer{
+    display: flexbox;
     background-color: #032927;
     padding-top: 40px;
     padding-bottom: 5px;
     height: 100px;
 }
+.footer-index{
+    display: flex;
+    justify-content: center;
+}
+.mapa {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    background-color: aqua;
+}
+.title-mapa{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-.contato{
+ .contato{
     color: white;
-    list-style: none;
     float: left;
     position:relative;
-    padding-left: 50px;
-    padding-right: 30px;
-    padding-top: 30px;
-    margin-top: -1.1em; 
+    padding: 2px;
+    margin: 10px; 
+    
+    
+}
+.contato-body{
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;
+}
+
+.chegar {
+
+    background-color: aqua;
+}
+
+.galeria{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
 }
